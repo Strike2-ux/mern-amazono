@@ -1,0 +1,21 @@
+{
+  "name": "mern-amazono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strike2-ux/mern-amazono.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strike2-ux/mern-amazono/issues"
+  },
+  "homepage": "https://github.com/Strike2-ux/mern-amazono#readme"
+}
